@@ -23,4 +23,6 @@ def main():
 
     if st.button("Convert"):
         result = convert_unit(value, unit_from, unit_to)
+        print("your converted value is: {result}")
+main()
       
